@@ -1,0 +1,181 @@
+/* all universal tags */
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.flex {
+    align-items: center;
+    display: flex;
+
+}
+
+/* header styling  */
+
+header {
+    background-color: #125784;
+}
+
+.upper {
+    justify-content: space-between;
+}
+
+.upper img {
+    width: 70px;
+}
+
+.navs,
+.navs a {
+    color: white;
+    text-decoration: none;
+    word-spacing: 11px;
+    margin-right: 19px;
+    align-items: center;
+}
+
+a:hover {
+    color: black;
+}
+
+.text-box {
+    font-family: Arial, sans-serif;
+    width: 219px;
+    height: 29px;
+    border-radius: 4px;
+    font-size: 17px;
+    border: 2px solid black;
+}
+
+/* main part styling */
+
+.main-txt {
+
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.559), rgba(0, 0, 0, 0.542)), url(../img/img1.jpg);
+    background-size: cover;
+    
+}
+
+.main-txt {
+    display: flex;
+    font-weight: 800;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+
+
+
+
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    justify-content: space-between;
+
+}
+
+.txt-flex {
+    background-color: #f57f17;
+    color: white;
+    float: left;
+    padding: 66px;
+    width: 1233px;
+
+}
+
+
+.image--2 img {
+    height: 284px;
+}
+
+.image--flex {
+    flex-wrap: wrap;
+}
+
+.image--flex img {
+    width: 505px;
+}
+
+
+
+/* form  */
+.inputt {
+    background-color: #5e35b1;
+    justify-content: center;
+
+}
+
+.input {
+
+    color: white;
+    margin: 0 auto;
+    max-width: 501px;
+    padding: 21px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit],
+#comments {
+    font-size: 14px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 21px;
+    resize: vertical;
+}
+
+input[type=submit]{
+cursor: pointer;
+}
+
+
+/* place holder for everyone  */
+::placeholder {
+    color: black;
+}
+
+/* footer styling */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer img {
+    width: 69px;
+}
+
+.text--footer {
+    margin-left: 31px;
+    padding: 21px;
+}
+
